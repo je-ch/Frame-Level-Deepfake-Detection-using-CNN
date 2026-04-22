@@ -116,7 +116,7 @@ Upload any face image (.jpg, .png, .jpeg) and get a real-time REAL/FAKE predicti
 deepfake-image-detection/
 │
 ├── Frame_Level_Deepfake_Detection_using_CNN_Models.ipynb
-├── df.py                  # Streamlit app
+├── df.py                  
 ├── requirements.txt
 └── README.md
 ```
