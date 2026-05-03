@@ -30,7 +30,7 @@ With the rapid rise of AI-generated synthetic media, deepfake images pose seriou
    - Output: Single logit → Sigmoid for binary probability
 
 2. **Two-Phase Training Strategy**
-   - **Epochs 1–2:** Backbone frozen — only the classifier head is trained
+   - **Epochs 1 - 2:** Backbone frozen, only the classifier head is trained
    - **Epochs 3+:** Full model unfrozen for end-to-end fine-tuning
    - This prevents early corruption of pretrained weights
 
